@@ -38,19 +38,27 @@ body {
   background-color: var(--cor-primaria);
   align-items: center;
   display: flex;
-  justify-content: center;
-  overflow: hidden;
+  justify-content: space-between;
+  list-style: none;
+  padding: 15px 30px;
 }
 
 .cabecalho h1 {
   color: var(--texto-principal);
   font-family: var(--fonte-principal);
+  font-size: 3rem;
+  text-align: left;
 }
 
-.cabecalho nav a {
-  color: var(--texto-principal);
-  text-decoration: none;
-  font-family: var(--fonte-principal);
-  justify-content: right;
-  text-align: right;
+.cabecalho header nav li {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 25px;
 }
+
+.cabecalhoq header h1 nav a{
+    max-width: 50%;
+}
+ 
