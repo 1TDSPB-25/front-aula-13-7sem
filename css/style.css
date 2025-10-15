@@ -16,16 +16,22 @@
 */
 
 :root {
-    --cor-primaria: #070834;
-    --cor-limpa: #0c0e70;
-    --texto-principal: #fff;
-    --acao: #007BFF;
-    --fonte-principal: Arial, Helvetica, sans-serif;
-    --fonte-secundaria: 'Times New Roman', Times, serif;
+  --cor-primaria: #070834;
+  --cor-limpa: #0c0e70;
+  --texto-principal: #fff;
+  --acao: #007BFF;
+  --fonte-principal: Arial, Helvetica, sans-serif;
+  --fonte-secundaria: 'Times New Roman', Times, serif;
+}
+
+html{
+  font-size:62.5%; /*Tendo como base 16px o valor é 10px*/
 }
 
 body {
   background-color: var(--cor-limpa);
+  width: 100vw;
+  height: 100vh;
 }
 
 .cabecalho {
@@ -41,3 +47,10 @@ body {
   font-family: var(--fonte-principal);
 }
 
+.cabecalho nav a {
+  color: var(--texto-principal);
+  text-decoration: none;
+  font-family: var(--fonte-principal);
+  justify-content: right;
+  text-align: right;
+}
