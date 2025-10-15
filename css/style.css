@@ -18,7 +18,7 @@
 :root {
     --cor-primaria: #070834;
     --cor-limpa: #0c0e70;
-    --texto-principal: #ffffff;
+    --texto-principal: #fff;
     --acao: #007BFF;
     --fonte-principal: Arial, Helvetica, sans-serif;
     --fonte-secundaria: 'Times New Roman', Times, serif;
@@ -33,6 +33,11 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  
+  overflow: hidden;
+}
+
+.cabecalho h1 {
+  color: var(--texto-principal);
+  font-family: var(--fonte-principal);
 }
 
