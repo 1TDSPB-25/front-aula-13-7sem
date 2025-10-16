@@ -79,4 +79,8 @@ main {
   background-color: var(--cor-limpa);
   color: var(--texto-principal);
   font-family: var(--fonte-secundaria);
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
 }
+
