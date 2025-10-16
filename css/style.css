@@ -95,3 +95,20 @@ main {
   font-size: 2.4rem;
   margin-bottom: 10px;
 }
+
+.container p, .container aside p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.container1 {
+  background-color: #0c0e70;
+}
+
+.container2 {
+  background-color: #0a0b4e;
+}
+
+.container3 {
+  background-color: #070834;
+}
